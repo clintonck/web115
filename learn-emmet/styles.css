@@ -1,0 +1,15 @@
+table, th, td {
+  border: 1px solid;
+}
+
+table {
+    margin: 20px auto;
+    width:80%;
+}
+
+.container{
+    background: ivory;
+    width: 80%;
+    max-width: 1100px;
+    margin: 10px auto;
+}
