@@ -237,16 +237,17 @@ nav ul li a:active{
 
 @media only screen and (max-width: 500px) {
 #home main {
+    padding-top: 0px;
     padding-bottom: 0px;
 }
 
  #home .main-wrapper img {
-    width: 300px;
-    height: 300px;
+    width: 90%;
+    height: 90%;
   }
 #home .main-wrapper .main-headline {
-    width: 300px;
-    height: 300px;
+    width: 90%;
+    height: 90%;
   }
 #home .main-headline h2 {
     margin-bottom: 0px;
@@ -346,6 +347,8 @@ aside {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    max-height: 82vh;
+    overflow: auto;
 }
 
 aside section {
